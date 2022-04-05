@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/startlogo"
+        android:layout_marginTop="60dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="60sp"
+        android:fontFamily="@font/cute_font"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="이메일 입력"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/editPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="비밀번호 입력"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*숫자 또는 영문 8자리 이상 17자리 미만"
+        android:layout_marginLeft="70dp"
+        android:textColor="#FF0000"
+        android:textSize="12sp"/>
+
+    <EditText
+        android:id="@+id/editNickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="이름 입력"
+        android:inputType="text"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*숫자 또는 문자 2자리 이상 11자리 미만"
+        android:layout_marginLeft="70dp"
+        android:textColor="#FF0000"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="회원가입"
+        android:textSize="30sp"
+        android:backgroundTint="#f25a78"/>
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:text="login"
+        android:backgroundTint="#E43E3E"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="10sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사진 촬영하기"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#777777"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/cute_font" />
+
+        <ImageButton
+            android:id="@+id/camerabtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/camerabtn"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#ffbcd9"
+            android:layout_marginHorizontal="60dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사진 선택하기"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/cute_font"/>
+
+        <ImageButton
+            android:id="@+id/layout_album"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gallerybtn"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#87cefa"
+            android:layout_marginHorizontal="60dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사진 보러가기"
+            android:textColor="#777777"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/cute_font"/>
+
+        <ImageButton
+            android:id="@+id/gallerybtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/photolistbtn"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#c3fa62"
+            android:layout_marginHorizontal="60dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+</LinearLayout>
