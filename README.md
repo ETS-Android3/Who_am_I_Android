@@ -12,22 +12,22 @@ Demo Video :
 1) 사진 촬영 또는 앨범에서 사진을 가져옵니다. 
 2) AWS Rekognition 통해 사물을 분석합니다.
 3) 분석 결과를 Naver Papago로 번역합니다. 
-4) 번역된 분석결과 TTS로 음성지원 합니다. 
+4) 번역된 분석결과를 TTS로 음성지원 합니다. 
 5) 번역된 분석결과를 Youtube로 검색 합니다. 
 
-### <화면기획서>
+
+### <화면계획>
 
 ### <사이트맵>
 
 ## Development Environment
-- MySql Workbench
-- Python Flask
-- Serverless
-- Android Studio
+- MySql Workbench 8.0.27
+- Python 3.8 & Serverless v3
+- Android Studio Bumblebee | 2021.1.1 Patch 2
 
 ## Application Version
-- minSdKVersion :
-- targetSdkVersion :
+- minSdKVersion : 16
+- targetSdkVersion : 30
 
 ## APIs
 - Retrofit : https://square.github.io/retrofit/
