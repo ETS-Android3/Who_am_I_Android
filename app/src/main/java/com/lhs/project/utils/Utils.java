@@ -14,7 +14,7 @@ public class Utils {
     // Youtube
     public static final String Youtube_URL = "https://www.googleapis.com/youtube/";
     // 가혜키
-//    public static final String ACCESS_KEY_youtube = "AIzaSyBDvnqjJA9Wlq-z_u7T6wMUQdvdWIprQjA";
+//    public static final String ACCESS_KEY_youtube = "Youtube-API-Key 가혜";
     // 후승키
-    public static final String ACCESS_KEY_youtube = "AIzaSyCCYznW7i8uS77CU6rTGxNmS-glzKs0ipo";
+    public static final String ACCESS_KEY_youtube = "Youtube-API-Key 후승";
 }
