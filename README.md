@@ -1,10 +1,10 @@
 # 누굴까 안드로이드 애플리케이션
 team Leader : 이후승
-email : 
+email : <br>
 member : 박가혜
-email : gahye0530@gmail.com
+email : gahye0530@gmail.com<br>
 member : 김준하
-email : 
+email : <br>
 Demo Video : 
 
 ## Introduction
